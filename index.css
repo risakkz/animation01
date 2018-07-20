@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+html {
+    height: 100%;
+    background-color: #222;
+    --color1: #f0f;
+    --color2: #ff0;
+    --color3: #0ff;
+    --color4: #90f;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stage {
+    display: flex;
+}
+
+.light {
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    margin: 120px 0 120px 120px;
+}
+
+.light:last-of-type {
+    margin: 120px;
+}
+
+.light1 {
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff, 0 0 30px #fff, 0 0 20px var(--color1), 0 0 30px var(--color1), 0 0 40px var(--color1), 0 0 50px var(--color1), 0 0 60px var(--color1), 0 0 70px var(--color1), 0 0 80px var(--color1), 0 0 90px var(--color1), 0 0 100px var(--color1), 0 0 110px var(--color1), 0 0 120px var(--color1);
+}
+
+.light2 {
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px var(--color2), 0 0 30px var(--color2), 0 0 40px var(--color2), 0 0 50px var(--color2), 0 0 60px var(--color2), 0 0 70px var(--color2), 0 0 80px var(--color2), 0 0 90px var(--color2), 0 0 100px var(--color2), 0 0 110px var(--color2), 0 0 120px var(--color2);
+}
+
+.light3 {
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px var(--color3), 0 0 30px var(--color3), 0 0 40px var(--color3), 0 0 50px var(--color3), 0 0 60px var(--color3), 0 0 70px var(--color3), 0 0 80px var(--color3), 0 0 90px var(--color3), 0 0 100px var(--color3), 0 0 110px var(--color3), 0 0 120px var(--color3);
+}
+
+.light4 {
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px var(--color4), 0 0 30px var(--color4), 0 0 40px var(--color4), 0 0 50px var(--color4), 0 0 60px var(--color4), 0 0 70px var(--color4), 0 0 80px var(--color4), 0 0 90px var(--color4), 0 0 100px var(--color4), 0 0 110px var(--color4), 0 0 120px var(--color4);
+}
